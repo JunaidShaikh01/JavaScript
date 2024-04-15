@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="mailFemailSection">
+            <div id="male">
+                <img src="images/male.png" alt="" srcset="">
+                <p>Male</p>
+            </div>
+            <div id="female">
+                <img src="images/female.png" alt="" srcset="">
+                <p>Femail</p>
+            </div>
+        </div>
+        <div class="heightInputSection">
+            <div id="feet">
+                <input type="number" name="" id="feetEnter" placeholder="Feet">
+                <p>FT</p>
+            </div>
+            <div id="inches">
+                <input type="number" name="" id="inchesEnter" placeholder="Inches">
+                <p>IN</p>
+
+            </div>
+        </div>
+        <div class="weightSection">
+            <input type="number" name="" id="weightEnter" placeholder="Weight">
+            <p>Kg</p>
+        </div>
+        <div class="outputSection">
+            <p id="result">Your BMI Is :</p>
+
+        </div>
+        <div class="submitButton">
+            <button type="button" id="submitBtn" onclick="getData()">Calculate</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

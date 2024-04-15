@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url(Images/dice-game-random-number.jpg) no-repeat center center/cover;
+   
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: #fff;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    -webkit-text-stroke:2px #fff ;
+    color: transparent;
+
+}
+
+.inputSection {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 30vh;
+    border-radius: 30px;
+    padding: 1em 2em 0 2em;
+    line-height: 2;
+
+}
+
+.inputSection p {
+    font-size: 1.5rem;
+}
+
+input {
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+    padding: 0.3em 0 0.3em 0.6em;
+    background-color: rgb(47, 47, 48);
+    border: none;
+    border-radius: 7px;
+    color: whitesmoke;
+}
+
+ 
+button {
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+
+
+
+.outputSection {
+    width: 50%;
+    border: 1px solid white;
+    height: 30vh;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}

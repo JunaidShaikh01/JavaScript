@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$bg-color: #182C61;
+$text-color: #b6b6d5;
+$shadow-property : 1px 1px 4px black;
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: $bg-color;
+    position: relative;
+
+    .container {
+        position: absolute;
+        display: flex;
+        left: 10%;
+        height: 100vh;
+        width: 50vw;
+        flex-direction: column;
+        justify-content: center;
+
+        .headerSection {
+            line-height: 1.3;
+            font-family: 'Roboto', sans-serif;
+
+            .firstName {
+                color: white;
+                text-shadow: $shadow-property;
+                font-size: 3rem;
+            }
+
+            .lastName {
+                color: $text-color;
+                border-bottom: 3px solid $text-color;
+                text-shadow: $shadow-property;
+                padding-bottom: 0.5rem;
+                margin-bottom: 1rem;
+                font-size: 3rem;
+            }
+        }
+
+        #password {
+            text-align: left;
+            width: 100%;
+            font-size: 1.5rem;
+            padding: 0.5em 0 0.5em 1em;
+            border-radius: 10px;
+            border: none;
+            box-shadow: $shadow-property;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .btnSection {
+            margin-top: 1rem;
+
+            .btn {
+                font-family: 'Poppins', sans-serif;
+                font-size: 1rem;
+                margin: 0 2rem 0 0;
+                padding: 0.5rem 1rem 0.5rem 1rem;
+                border-radius: 10px;
+                border: none;
+                box-shadow: $shadow-property;
+                color: $bg-color;
+            }
+
+            .btn:hover {
+                color: white;
+                background: #0f1c40;
+            }
+
+
+        }
+    }
+
+}

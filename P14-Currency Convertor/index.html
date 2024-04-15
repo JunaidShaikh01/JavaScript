@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currencyy Convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Raleway&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="mainContainer">
+            <nav class="navigationBar">
+                <h1>Currency <span>Exchange</span></h1>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Help</li>
+                </ul>
+                <p>Create Account</p>
+            </nav>
+            <div class="subMianConatainer">
+                <h1>All-in-One Exchange App</h1>
+                <div class="exchangeContainer">
+                    <div class="inputOutputSection">
+                        <div class="inputSsection">
+                            <div class="inputCurrencyValue box">
+                                <p>You Have</p>
+                                <input type="text" class="inputValue lineHeight" id="inpuValue">
+                            </div>
+                            <div class="inputCurrencyCountry box">
+                                <p id="inputcountryResult">India</p>
+                                <select class="inputCountryList " id="selectedInputCurrency">
+                                    <option value="inr" selected> Indian Rupee (INR)</option>
+                                    <option value="usd"> United State Dollar (USD)</option>
+                                    <option value="jpy"> Japanease Yen (jpy)</option>
+                                    <option value="eur"> Euro (EUR)</option>
+                                    <option value="cad"> Canadian Dollar (CAD)</option>
+                                    <option value="gbp"> British Pound Sterling (GBP)</option>
+                                    <option value="krw"> South Korean Won (KRW)</option>
+                                    <option value="kwd"> Kuwaiti Dinar (KWD)</option>
+                                    <option value="aed"> UAE Dirham (AED)</option>
+                                    <option value="sar"> Saudi Riyal (SAR)</option>
+                                    <option value="sgd"> Singapore Dollar(SGD)</option>
+                                    <option value="cny"> China (CNY)</option>
+                                    <option value="try"> Trykish Lira (TRY)</option>
+                                    <option value="hkd"> Hong Kong Doller (HKD)</option>
+                                    <option value="pkr"> Pakistani Rupees (PKR)</option>
+                                    <option value="qar"> Qatar Riyal (QAR)</option>
+                                    <option value="vnd"> Vietnamese Dong (VND)</option>
+                                    <option value="iqd"> Iraqi Dinar (IQD)</option>
+                                    <option value="bdt"> Bangladesh Taka (BDT)</option>
+                                    <option value="egp"> Egyptian Pound (EGP)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </div>
+                        <div class="outputSection">
+                            <div class="outputCurrencyValue box">
+                                <p>You Got</p>
+                                <p id="outputExchangeValue">.</p>
+
+                            </div>
+                            <div class="outputCurrencyCountry box">
+                                <p id="outputCountryResult">United State</p>
+                                <select class="outputCountryList" id="selectedOutputCurrency">
+                                    <option value="inr"> Indian Rupee (INR)</option>
+                                    <option value="usd" selected> United State Dollar (USD)</option>
+                                    <option value="jpy"> Japanease Yen (jpy)</option>
+                                    <option value="eur"> Euro (EUR)</option>
+                                    <option value="cad"> Canadian Dollar (CAD)</option>
+                                    <option value="gbp"> British Pound Sterling (GBP)</option>
+                                    <option value="krw"> South Korean Won (KRW)</option>
+                                    <option value="kwd"> Kuwaiti Dinar (KWD)</option>
+                                    <option value="aed"> UAE Dirham (AED)</option>
+                                    <option value="sar"> Saudi Riyal (SAR)</option>
+                                    <option value="sgd"> Singapore Dollar(SGD)</option>
+                                    <option value="cny"> China (CNY)</option>
+                                    <option value="try"> Trykish Lira (TRY)</option>
+                                    <option value="hkd"> Hong Kong Doller (HKD)</option>
+                                    <option value="pkr"> Pakistani Rupees (PKR)</option>
+                                    <option value="qar"> Qatar Riyal (QAR)</option>
+                                    <option value="vnd"> Vietnamese Dong (VND)</option>
+                                    <option value="iqd"> Iraqi Dinar (IQD)</option>
+                                    <option value="bdt"> Bangladesh Taka (BDT)</option>
+                                    <option value="egp"> Egyptian Pound (EGP)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="extraCurrencySection">
+                        <div class="usdToInr marginTop">
+                            <p>USD/INR</p>
+                            <P id="usdToInr" style="text-align: center;"></P>
+                        </div>
+                        <div class="usdToJpy marginTop">
+                            <p>USD/EURO</p>
+                            <P id="usdToEur" style="text-align: center;"></P>
+                        </div>
+                        <div class="usdToKwd marginTop">
+                            <p>USD/KWD</p>
+                            <P id="usdToKwd" style="text-align: center;"></P>
+                        </div>
+                        <div class="usdToUae marginTop">
+                            <p>USD/UAE</p>
+                            <P id="usdToUae" style="text-align: center;"></P>
+                        </div>
+                        <div class="buttonSection">
+                            <button id="exchageCurrency">Exchange <i class="fa-solid fa-right-long"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.js"></script>
+
+</html>

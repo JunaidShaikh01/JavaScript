@@ -1,0 +1,42 @@
+*{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(image.jpg) no-repeat center center/ cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.paragraph{
+    margin-top: 2em;
+    width: 50%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+
+}
+.para{
+    cursor: pointer;
+    display: flex;
+    display: 100%;
+    border: 2px solid rgb(237, 205, 162);
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px ;
+    
+}
+.close-btn{
+    font-size: 1.4rem;
+    font-weight: bold;
+}

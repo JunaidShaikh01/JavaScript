@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #182C61;
+  position: relative;
+}
+body .container {
+  position: absolute;
+  display: flex;
+  left: 10%;
+  height: 100vh;
+  width: 50vw;
+  flex-direction: column;
+  justify-content: center;
+}
+body .container .headerSection {
+  line-height: 1.3;
+  font-family: "Roboto", sans-serif;
+}
+body .container .headerSection .firstName {
+  color: white;
+  text-shadow: 1px 1px 4px black;
+  font-size: 3rem;
+}
+body .container .headerSection .lastName {
+  color: #b6b6d5;
+  border-bottom: 3px solid #b6b6d5;
+  text-shadow: 1px 1px 4px black;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+body .container #password {
+  text-align: left;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.5em 0 0.5em 1em;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 4px black;
+  font-family: "Poppins", sans-serif;
+}
+body .container .btnSection {
+  margin-top: 1rem;
+}
+body .container .btnSection .btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin: 0 2rem 0 0;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 4px black;
+  color: #182C61;
+}
+body .container .btnSection .btn:hover {
+  color: white;
+  background: #0f1c40;
+}/*# sourceMappingURL=style.css.map */
